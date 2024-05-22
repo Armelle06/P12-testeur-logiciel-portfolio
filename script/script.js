@@ -30,7 +30,7 @@ function createSkillsFromJSON() {
   row.classList.add("row");
 
   // Charger le fichier JSON
-  fetch("../data/skills.json")
+  fetch("data/skills.json")
     .then((response) => response.json())
     .then((data) => {
       // Itérer à travers les données JSON data and creation HTML elements
