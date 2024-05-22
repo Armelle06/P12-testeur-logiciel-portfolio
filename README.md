@@ -18,17 +18,16 @@
 
 Ce projet est un portfolio web qui permet de :
 
--Présenter mon profil de développeur
--Lister mes compétences techniques
+-Présenter mon profil de développeur  
+-Lister mes compétences techniques  
 -Montrer des exemples de projets sur lesquels j'ai travaillé
 
 # **Technologie Utilisées**
 
--HTML5
--CSS3
--JavaScript
--React (ou autre framework/bibliothèque utilisé)
--Font Awesome pour les icônes
+-HTML5  
+-CSS3  
+-JavaScript-React (ou autre framework/bibliothèque utilisé)  
+-Font Awesome pour les icônes  
 -GitHub Pages pour le déploiement
 
 # **Installation**
@@ -57,13 +56,18 @@ cd portfolio
 1. Ouvrez le projet dans Visual Studio Code.
 2. Installez l'extension Live Server si ce n'est pas déjà fait.
 3. Cliquez avec le bouton droit sur le fichier `index.html` et sélectionnez "Open with Live Server".
-   Le site sera accessible à l'adresse `http://127.0.0.1:5500` (ou une autre adresse spécifiée par Live Server).
+4. Le site sera accessible à l'adresse `http://127.0.0.1:5500` (ou une autre adresse spécifiée par Live Server).
 
 # **Fonctionnalités**
 
--**Présentation du profil**: Une section dédiée à mon parcours et à mes compétences. -**Projets** : Présentation détaillée de mes projets avec des liens vers les dépôts GitHub correspondants. -**Responsive Design**: Optimisé pour une visualisation sur différents appareils. -**Accessibilité**: Conforme aux bonnes pratiques en matière de SEO et d'accessibilité.
+-**Présentation du profil**: Une section dédiée à mon parcours et à mes compétences.  
+-**Projets** : Présentation détaillée de mes projets avec des liens vers les dépôts GitHub correspondants.  
+-**Responsive Design**: Optimisé pour une visualisation sur différents appareils.  
+-**Accessibilité**: Conforme aux bonnes pratiques en matière de SEO et d'accessibilité.
 
 # **Projets**
+
+-**Présentation des différents projets effectués durant la formation**
 
 # **Optimisations et Corrections**
 
@@ -96,5 +100,5 @@ https://votre-utilisateur.github.io/portfolio
 
 Pour toute question ou collaboration, vous pouvez me contacter via :
 
---**Email** : armelle.barban@gmail.com
---**LinkedIn** : `https://www.linkedin.com/in/armelle-barban-511205271/`
+-**Email** : armelle.barban@gmail.com  
+-**LinkedIn** : `https://www.linkedin.com/in/armelle-barban-511205271/`
