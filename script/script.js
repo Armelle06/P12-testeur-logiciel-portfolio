@@ -1,8 +1,8 @@
-// Fonction pour ajouter la classe "navbarDark" à la barre de navigation lors du défilement
+// Fonction pour ajouter la classe "navbarDark" (ma barre rose) à la barre de navigation lors du défilement
 function handleNavbarScroll() {
   const header = document.querySelector(".navbar");
   window.onscroll = function () {
-    const top = window.scrollY;
+    const top = window.scrollY; // const qui recupere le nombre de px defilé depuis le haut
     if (top >= 100) {
       header.classList.add("navbarDark");
     } else {
@@ -47,7 +47,7 @@ function createSkillsFromJSON() {
                         </div>
                     </div>
                `;
-        // ajout de loadint mais ca ne fait rien     !!!
+        // ajout de alt et du loading !!!
         // Ajouter la carte à la ligne actuelle
         row.appendChild(card);
 
@@ -81,14 +81,13 @@ function createPortfolioFromJSON() {
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn cli-rose">Lien</a>
+                            <a href="${item.link}" class="btn cli-rose" target="_blank">Lien</a>
                         </div>
                     </div>
                 </div>
                 `;
-
         // Ajouter la carte à la ligne actuelle
-        row.appendChild(card);
+        row.appendChild(card); // erreur de frappe sur appendChild!!
 
         // Si l'index est un multiple de 3 ou si c'est le dernier élément, créer une nouvelle ligne
         if ((index + 1) % 3 === 0 || index === data.length - 1) {

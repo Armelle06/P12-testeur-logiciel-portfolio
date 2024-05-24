@@ -47,16 +47,16 @@ cd portfolio
 
 ```
 
-3. Installez les dépendances dans IDE:Visual Studio Code (VSCode):
+3. Installez les dépendances dans IDE: Visual Studio Code (VSCode):
 
-`https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer`
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 # **Utilisation**
 
 1. Ouvrez le projet dans Visual Studio Code.
 2. Installez l'extension Live Server si ce n'est pas déjà fait.
 3. Cliquez avec le bouton droit sur le fichier `index.html` et sélectionnez "Open with Live Server".
-4. Le site sera accessible à l'adresse `http://127.0.0.1:5500` (ou une autre adresse spécifiée par Live Server).
+4. Le site sera accessible à l'adresse http://127.0.0.1:5500 (ou une autre adresse spécifiée par Live Server).
 
 # **Fonctionnalités**
 
@@ -94,7 +94,7 @@ cd portfolio
 # **Déploiement**
 
 Le site est déployé sur GitHub Pages et est accessible à l'adresse suivante :
-https://votre-utilisateur.github.io/portfolio
+https://armelle06.github.io/P12-testeur-logiciel-portfolio/
 
 # **Contact**
 

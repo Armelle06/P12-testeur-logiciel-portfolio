@@ -4,7 +4,7 @@
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding-top: 4rem;
 }
  h1,
@@ -21,7 +21,7 @@
     padding-bottom: 4rem;
 }
 
-/* display background dark color on navbar scroll */
+/* background dark color en rose au scroll */
 .fixed-top{
     background-color:black ;
     height:50px;
@@ -44,14 +44,12 @@
 }
 
 
-/* partir ajouter
-  .nav-link {
-    color :blue;*/
-
+/* partir ajouter*/
+ 
 .navbar-dark .navbar-nav .navbar-link{
     color:#fff;
 }
-/***/
+
 /* hero background image */
 .bgimage {
     height: 100vh;
@@ -61,7 +59,7 @@
     position: relative;
     
 }
-/*
+/* pour ajouter du contrast avec le content mais le rendu trop sombre 
 .bgimage::before {
     content: '';
     position: absolute;
@@ -72,14 +70,13 @@
     background: rgba(0, 0, 0, 0.1); Filtre opaque 
     z-index:1;  /*Place le filtre derrière le texte 
 */
+
 /* text css above hero image*/
 .hero_title {
     color:#dc8aee;
     font-size: 4.5rem;
-    font-weight: bold;
-    
+    font-weight: bold;    
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre du texte pour un effet 3D */
-
 }
 .hero_desc {
     font-size: 2rem;
@@ -93,13 +90,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    
 }
 
-/* about 
+/* about */
 .imageAboutPage {
     width: 80%;
-}*/
+}
 .imageAboutPage {
     width:260px;
     height:260px;
@@ -108,8 +104,6 @@
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-/*parti ajouté*/
-
 
 /* skills */
 .skillsText.card {
@@ -129,15 +123,12 @@
     text-align: center;
     width: 100%;
 }
-
-
 .card-title {
     text-align: center;
 }
-.card:hover .skillsIcon {/* je ne sais pas a quoi ca correspond?*/
+.card:hover .skillsIcon {
     color: #a249b7;
 }
-
 .skillsText:hover {
     border: 1px solid #a249b7;
 }
@@ -148,7 +139,6 @@
 }
 .text-center{
     bottom:5px;
-
 }
 
 /* portfolio */
@@ -179,14 +169,14 @@
     border-color:#a249b7;
     background:#a249b7;
     animation: zoom 1s forwards;
-    outline: none; /* Supprime le contour bleu */
+   outline: none; /* Supprime le contour bleu */
 
 }
 .cli-rose:not(:hover){
     border-color:#a249b7;
     background:#a249b7;
     animation: dezoom 1s forwards;
-    outline: none; /* Supprime le contour bleu */
+   outline: none; /* Supprime le contour bleu */
 }
 
 @keyframes zoom {
@@ -238,7 +228,7 @@
 
 @media (max-width: 992px){
 .imageAboutPage {
-    width: 80%;
+    width: 85%;
 }
 .navbar-dark .navbar-nav .nav-link {
     color:#a249b7; 
