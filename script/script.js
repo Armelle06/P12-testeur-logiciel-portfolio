@@ -75,7 +75,7 @@ function createPortfolioFromJSON() {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
         card.innerHTML = `
-                    <div class="card portfolioContent">
+                <div class="card portfolioContent">
                     <img class="card-img-top" src="images/${item.image}" alt="${item.title}" style="width:100%" loading="lazy">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
