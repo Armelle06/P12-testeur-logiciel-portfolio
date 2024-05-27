@@ -37,13 +37,14 @@ Pour cloner et exécuter ce projet sur votre machine locale, suivez ces étapes 
 1. Clonez le repository:
 
 ```
-git clone https://github.com/votre-utilisateur/portfolio.git
+git clone https://github.com/OpenClassrooms-Student-Center/P12-testeur-logiciel-portfolio.git
+
 ```
 
 2. Accédez au répertoire du projet :
 
 ```
-cd portfolio
+cd Projet-12\P12-testeur-logiciel-portfolio-master
 
 ```
 
@@ -73,7 +74,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ## **Bugs Résolus**
 
-1. **Icônes Font Awesome non affichées** : Le problème était dû à l'absence du lien vers la feuille de style de Font Awesome dans le fichier HTML. La solution consistait à ajouter le lien suivant dans la balise <head>, avant le lien vers Bootstrap :
+1. **Icônes Font Awesome non affichées** : Le problème était dû à l'absence du lien vers la feuille de style de Font Awesome dans le fichier HTML. La solution consistait à ajouter le lien suivant dans la balise head, avant le lien vers Bootstrap :
 
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -81,7 +82,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
     crossorigin="anonymous" referrerpolicy="no-referrer">
 ```
 
-2. **Problèmes d'affichage dynamique** : [Description de la correction]
+2. **Problèmes d'affichage dynamique** : Une erreur d'orthographe a été corrigée dans le script pour garantir le bon fonctionnement de l'affichage dynamique.
 
 ## **Optimisations**
 
@@ -101,4 +102,4 @@ https://armelle06.github.io/P12-testeur-logiciel-portfolio/
 Pour toute question ou collaboration, vous pouvez me contacter via :
 
 -**Email** : armelle.barban@gmail.com  
--**LinkedIn** : `https://www.linkedin.com/in/armelle-barban-511205271/`
+-**LinkedIn** : https://www.linkedin.com/in/armelle-barban-511205271/
