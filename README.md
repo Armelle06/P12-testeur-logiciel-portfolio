@@ -26,8 +26,8 @@ Ce projet est un portfolio web qui permet de :
 
 -HTML5  
 -CSS3  
--JavaScript
--Bootstrap
+-JavaScript  
+-Bootstrap  
 -Font Awesome pour les icônes  
 -GitHub Pages pour le déploiement
 
