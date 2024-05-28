@@ -18,7 +18,7 @@
 
 Ce projet est un portfolio web qui permet de :
 
--Présenter mon profil de développeur  
+-Présenter mon profil de développeur et testeur  
 -Lister mes compétences techniques  
 -Montrer des exemples de projets sur lesquels j'ai travaillé
 
