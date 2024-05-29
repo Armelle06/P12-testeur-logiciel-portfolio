@@ -212,27 +212,20 @@
         background-color:#a249b7;
     }
 }
+
 .btn:focus {
     outline: 4px solid #a249b7; /* Contour de focus avec une bordure solide de couleur violette */
 }
 
-/*
-.btn-succes{ca ne fonctionne pas j en peux plus !!
-    border-color:#a249b7;
-    background:#a249b7;
-}*/
-
-
-/* footer */
+/* footer rien ajouté */
 
 
 @media (max-width: 992px){
-.imageAboutPage {
-    width: 85%;
-}
+.row>*{
+    width: auto !important; 
+    }
 .navbar-dark .navbar-nav .nav-link {
     color:#a249b7; 
     font-weight: bold;
-
-}
+    }
 }
